@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+nav {
+    padding: 5px;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 3;
+    padding: 2px;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.website-logo h1 {
+    font-size: 3.5em;
+    text-align: end;
+}
+
+.website-logo {
+    width: 22vw;
+}
+
+.website-logo span {
+    color: red;
+}
+
+.website-links {
+    width: 55vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.website-links a {
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+    font-weight:900;
+}
+.website-links .active{
+    color: red;
+}
+.contact{
+    background-color: rgba(255, 0, 0, 0.717);
+    color: white;
+    height: 20vh;
+    text-align: center;
+    font-size: 2rem;
+}
+.contact h1{
+    padding-top: 5vh;
+}
+.form-contact{
+    text-align: center;
+}
+.form{
+    padding: 5vh; 
+}
+
+input[type=text], textarea{
+    width: 50%;
+    padding: 18px;
+    font-size: 1em;
+    margin: 12px;
+}
+input[type=submit]{
+    width: 10%;
+    padding: 16px;
+    color: white;
+    background-color: black;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+input[type=submit]:hover{
+background-color: rgb(174, 74, 74);
+border: 1px solid red;
+}
+.map{
+    text-align: center;
+    margin: 35px;
+}
+.map h1{
+    font-size: 4rem;
+    font-weight: 900;
+    color:red;
+    margin: 25px;
+}
+.banner2 {
+    background-image: url(images/BOY.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+}
+
+.banner-text2 {
+    width: 48vw;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    font-size: 1.5em;
+    margin-top: 25px;
+    line-height: 1.3;
+}
+
+.banner-text2 h1 {
+    font-size: 2.8em;
+}
+
+.banner-text-button2 {
+    padding: 16px 58px 16px 58px;
+    background-color: red;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 600;
+    border: none;
+    margin-top: 30px;
+}
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding-top: 5%;
+    width: 100%;
+ 
+}
+.reach i{
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+}
+.social-links i{
+    color: white;
+    font-size: 25px;
+    padding-top: 25px;
+}
+.social-links span{
+color: red;
+}
+ .social-links:hover{
+    color: red;
+}
+.reach{
+    width: 30%;
+}
+.reach a{
+    text-decoration: none;
+    display: block;
+    align-items: center;
+    color: white;
+    text-align: left;
+    padding-top: 15px;
+}
+.reach a:hover{
+    color: red;
+}
+.social-links{
+    width: 30%;
+    padding: 20px;
+}
+.icon
+.google-map a{
+width: 20%;
+text-decoration: none;
+}
+.footer-para{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.footer-para{
+    text-align: center;
+    padding-bottom: 30px;
+}
+/* section7 ended */
+.footer-last{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 30px;
+    width: 100%;
+}
+.footer-last p{
+    padding: 30px;
+    border-top:1px solid rgb(71, 107, 121);
+    width: 80%;
+    position: relative;
+    left: 10%;
+    right: 10%;
+}
+.footer-last span{
+    color: red;
+}
+@media screen and (max-width:800px){
+    .famms{
+        width: 100%;
+    }
+}

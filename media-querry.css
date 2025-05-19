@@ -1,0 +1,227 @@
+@media screen and (max-width:800px) {
+    
+    .website-links a{
+        display: none;
+    }
+    #Vt-Nav{
+        display: none;
+        background-color: #dcdbdb;
+        text-align: center; 
+    }
+    #btn-btn{
+        display: block;
+        width: 100px;
+        position: absolute;
+        right: 10px;
+    }
+    #btn-btn-btn{
+        display: none;
+        background-color: black;
+        border: 1px solid black;
+        width: 15vw;
+    }
+    .vertical-navbar a:hover{
+        background-color: white;
+    }
+    .banner_text button{
+        height: 6vh;
+    }
+    .banner_text{
+        width: 50%;
+        position: relative;
+        top: 8vh;
+        left: 8px;
+        padding-top:0;
+    }
+    .banner_text h1 {
+        font-size: 3.5em;
+    }
+    .banner_text p{
+     display: none;   
+    }
+    .banner_text button{
+        padding: 15px 35px;
+        font-size: 0.8rem;
+    }
+    .banner_Box {
+        background-image: url(./images/slider-bg.png);
+        background-size:cover;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .section1-heading h1{
+        font-size: 2.5em;
+        width: 100%;
+        margin-top: 10vh;
+    }
+    .banner2{
+        width: 100%;
+        background-image: url(./images/BOY.png); 
+        background-size:cover;
+        margin-top: 30px;
+    }
+    .banner-text2 {
+        padding: 22px;
+        line-height: 1;
+    }
+    .banner-text2 h1{
+        font-size: 2.5em;
+    }
+    .banner-text2 p{
+      display: none;
+    }
+    .banner-text-button2 {
+        margin: 20px;
+        padding: 10px 40px;
+        font-size: 0.5em;
+    } 
+    .main-div{
+        display: block;
+        justify-content: space-evenly;
+    }
+    .main-div .inner-div {
+        width: 80%;
+        margin: 15px 50px;
+    }
+    .div-box{
+        width: 100%;
+        
+    }
+    .heading-box h1{
+        font-size: 2.5em;
+    }
+    .heading-box p{
+        font-size: 1em;
+    }
+    .input[type=email]{
+        text-align: center;
+    }
+    .inner-img img{
+        width:24%;
+    }
+    .review-buttons{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    }
+    
+    .famms-details{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+        display: block;
+    }
+    .social-links{
+        width: 100%;
+        padding: 25px;
+    }
+    .reach{
+        width: 100%;
+        padding: 25px;
+    }
+    .details{
+        width: 100%;
+      display: block;
+      padding: 38px;
+      margin-top: 35px;
+    }   
+    .menu-account{
+        display: block;
+        width: 100%;
+    }
+    .Account{
+        margin-top: 20px;
+    }
+    .Newsletter{
+        width: 100%;
+    }
+    .email{
+        width: 100%;
+        display: block;
+    }
+      
+    .sub-btn{
+        display: block;
+        justify-content: center;
+        margin-left: 5px 20px;
+    }
+     .email input[type=email]{
+        margin-left: 0;
+        width: 100%;
+        font-size: 1em;
+    } 
+    .email-btn{
+        width: 100%;
+    }
+    input[type=submit]{
+        width: 20%;
+    }
+    input[type=text]{
+        width: 55%;
+    }
+
+    .header{
+        height: 16vh;
+        font-size: 1.5em;
+    }
+    .section5{
+        width: 100%;
+    }
+
+     .about{
+        background-image: url(./images/sup\ -\ Copy.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+       width: 100%;  
+    }
+    .contact{
+        width: 100%;
+        height: 12vh;
+        font-size: 1em;
+    }
+   .form-contact{
+    width: 100%;
+   }
+    .form input[type=text]{
+        width: 100%;
+    }
+    .form textarea{
+        width: 100%;
+    }
+        
+    input[type=submit]{
+        width: 25%;
+        font-size: 1em;
+    } 
+    .heading-box{
+        margin: 12px 12px;
+        padding: 12px 12px;
+      }
+      .new-collection{
+        background-image: url(./images/colection.jpg);
+    }
+    .heading h1{
+        font-size: 1em;
+    }
+    .heading h3{
+       font-size: 0.8em;
+      }
+      .find-on-map{
+        width: 100%;
+      }
+    .map h1{
+        font-size: 2rem;
+    } 
+    .footer-last p{
+        width: 80%;
+    }
+
+}
+@media screen and (min-width:800px) {
+    #btn-btn{
+        display: none !important;
+    }
+}
