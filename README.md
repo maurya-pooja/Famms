@@ -1,13 +1,18 @@
-# Famms - A Lightweight & Responsive Website Template.😊
-A clean and responsive website template built using **HTML, CSS, and media queries** for optimized user experience.  
+# Famms - Responsive Fashion Website
 
-=>
-✅ Pure HTML & CSS Approach – Fast and lightweight  
-✅ Fully Responsive Design – Works on all screen sizes  
-✅ Minimal & Professional Look – Clean and effective UI  
-✅ GitHub Repository Available :-
+A clean, responsive fashion store website built with **HTML, CSS and media queries**.
 
-## 🔗 Explore Here  
-[GitHub Repository](https://github.com/maurya-pooja/Famms)  
+🔗 **Live Demo:** [pooja-famms.netlify.app](https://pooja-famms.netlify.app)
 
-💡 **Would love to hear your feedback!** 😊  
+## Features
+- Pure HTML & CSS, fast and lightweight
+- Fully responsive, works on mobile, tablet and desktop
+- Multiple pages: Home, Products, About, Contact
+- Clean, minimal design
+
+## Tech Stack
+HTML5, CSS3, Media Queries
+
+## Author
+**Pooja Maurya**, Web Developer
+[GitHub](https://github.com/maurya-pooja)
